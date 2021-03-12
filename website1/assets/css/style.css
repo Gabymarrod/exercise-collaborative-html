@@ -1,3 +1,38 @@
+/* Clases body y hr deben aplicar a todo el documento, le dan el fondo a la pagina y el formato del separador de secciones */
+
 body{
-    background: #BDBDBD;
+    background: white;
 }
+
+hr {
+    width: 80%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+/* Reglas CSS adicionales de aqui hasta donde se indica (sufijo -porfolio) aplican solo a la seccion porfolio de J. Arispe */
+.title-porfolio {
+    font-weight: 600;
+}
+
+.main-porfolio {
+    width: 80%;
+    padding: 0;
+    margin: auto;
+}
+
+.card-porfolio {
+    width: 31%;
+    border: none;
+}
+
+.card-body-porfolio {
+    padding: 0;
+    margin-top: 1em;
+}
+
+.card-text-porfolio {
+    font-size: .9rem;
+    font-weight: 600;
+}
+/* Hasta aqui llegan las reglas CSS adicionales de la seccion -porfolio */
